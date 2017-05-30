@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBEE9FEE9903CDEDE003E47C /* libPods-ThePlacesYoullGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B14A6BD6222E771FE178FAA9 /* libPods-ThePlacesYoullGo.a */; };
 		E9C4D54A1EDDF901009DC5A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4D5491EDDF901009DC5A5 /* AppDelegate.swift */; };
 		E9C4D54C1EDDF901009DC5A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4D54B1EDDF901009DC5A5 /* ViewController.swift */; };
 		E9C4D54F1EDDF901009DC5A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C4D54D1EDDF901009DC5A5 /* Main.storyboard */; };
 		E9C4D5511EDDF901009DC5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C4D5501EDDF901009DC5A5 /* Assets.xcassets */; };
 		E9C4D5541EDDF901009DC5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C4D5521EDDF901009DC5A5 /* LaunchScreen.storyboard */; };
+		E9C4D55C1EDDF913009DC5A5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E9C4D55B1EDDF913009DC5A5 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A65828BBB61A0E6D2F783AAC /* Pods-ThePlacesYoullGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThePlacesYoullGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThePlacesYoullGo/Pods-ThePlacesYoullGo.release.xcconfig"; sourceTree = "<group>"; };
+		B14A6BD6222E771FE178FAA9 /* libPods-ThePlacesYoullGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThePlacesYoullGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C4D5461EDDF901009DC5A5 /* ThePlacesYoullGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThePlacesYoullGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C4D5491EDDF901009DC5A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9C4D54B1EDDF901009DC5A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		E9C4D5501EDDF901009DC5A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9C4D5531EDDF901009DC5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9C4D5551EDDF901009DC5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C4D55B1EDDF913009DC5A5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		EAE4AA489A8460BE191426D8 /* Pods-ThePlacesYoullGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThePlacesYoullGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThePlacesYoullGo/Pods-ThePlacesYoullGo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBEE9FEE9903CDEDE003E47C /* libPods-ThePlacesYoullGo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AD972DD55D8F6F6A720832D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B14A6BD6222E771FE178FAA9 /* libPods-ThePlacesYoullGo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62E29E0EF38FE51B38A698FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAE4AA489A8460BE191426D8 /* Pods-ThePlacesYoullGo.debug.xcconfig */,
+				A65828BBB61A0E6D2F783AAC /* Pods-ThePlacesYoullGo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E9C4D53D1EDDF901009DC5A5 = {
 			isa = PBXGroup;
 			children = (
+				E9C4D55B1EDDF913009DC5A5 /* Podfile */,
 				E9C4D5481EDDF901009DC5A5 /* ThePlacesYoullGo */,
 				E9C4D5471EDDF901009DC5A5 /* Products */,
+				62E29E0EF38FE51B38A698FC /* Pods */,
+				3AD972DD55D8F6F6A720832D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9C4D5581EDDF901009DC5A5 /* Build configuration list for PBXNativeTarget "ThePlacesYoullGo" */;
 			buildPhases = (
+				416AA06F536133C5926349F3 /* [CP] Check Pods Manifest.lock */,
 				E9C4D5421EDDF901009DC5A5 /* Sources */,
 				E9C4D5431EDDF901009DC5A5 /* Frameworks */,
 				E9C4D5441EDDF901009DC5A5 /* Resources */,
+				4BD8F421F287C196E2C895A2 /* [CP] Embed Pods Frameworks */,
+				1B8F61009FE072C615CA1C75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,11 +156,60 @@
 			files = (
 				E9C4D5541EDDF901009DC5A5 /* LaunchScreen.storyboard in Resources */,
 				E9C4D5511EDDF901009DC5A5 /* Assets.xcassets in Resources */,
+				E9C4D55C1EDDF913009DC5A5 /* Podfile in Resources */,
 				E9C4D54F1EDDF901009DC5A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B8F61009FE072C615CA1C75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThePlacesYoullGo/Pods-ThePlacesYoullGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		416AA06F536133C5926349F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BD8F421F287C196E2C895A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThePlacesYoullGo/Pods-ThePlacesYoullGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9C4D5421EDDF901009DC5A5 /* Sources */ = {
@@ -259,6 +338,7 @@
 		};
 		E9C4D5591EDDF901009DC5A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE4AA489A8460BE191426D8 /* Pods-ThePlacesYoullGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GX7FEG5PZB;
@@ -272,6 +352,7 @@
 		};
 		E9C4D55A1EDDF901009DC5A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65828BBB61A0E6D2F783AAC /* Pods-ThePlacesYoullGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GX7FEG5PZB;
